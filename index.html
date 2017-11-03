@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikipedia Viewer App</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+            <p>Click here for a random article</p>
+            <div id="icon">
+                <div class="search"><i class="fa fa-search fa-3x" aria-hidden="true"></i></div>
+                <div class="Input">
+                    <form>
+                       <input type="text" id="article">
+                    </form>
+                    <div id="cancel">X</div>
+                </div>
+            </div>
+            <p>Click icon to search</p>
+        </div>
+
+        <ul class="wiki"></ul>
+        <footer>
+            <p>Designed and Developed By <a href="http://www.alabi4code.com" target="_blank">Adetunji Alabi</a></a></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

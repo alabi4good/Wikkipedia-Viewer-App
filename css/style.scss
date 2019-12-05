@@ -19,7 +19,7 @@ body{
 }
 
 #container{
-    width: 100%;
+    width: percentage(1);
     height: auto;
 
 }
@@ -74,7 +74,7 @@ body{
 }
 #article{
     width: 80%;
-    margin: 5px 5px;
+    margin: 0px 5px;
     background: none;
     border: none;
     color: #fff;
@@ -120,7 +120,7 @@ body{
 
 .wiki{
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     transition-delay: .7s;
     animation: wikiAnimate 1s forwards;
     opacity: 0;
